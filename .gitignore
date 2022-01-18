@@ -2,6 +2,11 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
+Library/
+Logs/
+obj/
+Temp/
+UserSettings/
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -47,6 +52,7 @@ ExportedObj/
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
+.vsconfig
 
 # Unity3D generated file on crash reports
 sysinfo.txt
@@ -57,4 +63,3 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
-
